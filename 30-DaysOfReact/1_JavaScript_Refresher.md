@@ -1,13 +1,9 @@
 # Day 1 – JavaScript Refresher 🚀  
 Strengthening core JavaScript concepts to build a solid React foundation.
 
-
-
 ## 📌 What is ES6?
 
 **ES6 (ECMAScript 2015)** is a major JavaScript update that introduced new features making code cleaner, shorter, and more powerful. It includes modern syntax like `let`, `const`, arrow functions, classes, modules, and more.
-
-
 
 ## 🔹 `let` vs `const`
 
@@ -23,8 +19,6 @@ const PI = 3.14;
 ```
 
 ✅ Use const by default. Use let only when reassignment is needed.
-
-
 
 ## 🔹 Arrow Functions
 
@@ -126,7 +120,7 @@ console.log(name); // Reetu
 
 
 
-📝 Summary
-Understanding modern JavaScript (ES6+) is essential before diving into React. Concepts like arrow functions, destructuring, classes, modules, and spread/rest operators are widely used in React components and application architecture.
+# 📝 Summary
+***Understanding modern JavaScript (ES6+) is essential before diving into React. Concepts like arrow functions, destructuring, classes, modules, and spread/rest operators are widely used in React components and application architecture.***
 
 ✅ Strong JavaScript = Smooth React learning
