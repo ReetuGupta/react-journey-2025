@@ -1,14 +1,15 @@
 import './App.css'
-import Hello from './components/Hello'
+// import MyComponent from './components/Day3'
+import {Header, Footer} from './components/Day3'
 
 function App() {
-
   return (
       <div>
-        <Hello/>
-        <h2>
-          Finally This is React 19.1.0
-        </h2>
+        <Header/>
+        <h1>
+          Main
+        </h1>
+        <Footer/>
       </div>
   );
 }
