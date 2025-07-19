@@ -9,7 +9,7 @@ React applications are made up of components — and to keep things modular and 
 
 **Default Export**
 
-🔹Only one per file
+🔹Only one per file\
 🔹Commonly used in React components
 
 ```bash
@@ -43,7 +43,7 @@ export default App
 
 **Named Export**
 
-🔹Can export multiple things from a file
+🔹Can export multiple things from a file\
 🔹Useful for utility functions, constants etc.
 
 ```bash
@@ -98,18 +98,18 @@ JSX (JavaScript XML) is a syntax extension in React that allows you to write HTM
 
 ### Why JSX?
 
-🔹Simplifies writing and visualizing UI elements
-🔹Enables embedding dynamic data using JavaScript expressions
-🔹Makes the code cleaner and closer to how the UI should appear
-🔹Internally transformed into React.createElement() calls by the React compiler
+🔹Simplifies writing and visualizing UI elements\
+🔹Enables embedding dynamic data using JavaScript expressions\
+🔹Makes the code cleaner and closer to how the UI should appear\
+🔹Internally transformed into React.createElement() calls by the React compiler\
 
 ### Key Rules of JSX:
 
-🔹Must return a single parent element
-🔹Use className instead of class
-🔹Wrap JavaScript expressions inside {}
-🔹Close all tags, even self-closing ones like <img />, <br />
-🔹JSX is not HTML — it’s syntactic sugar over React.createElement() with its own rules
+🔹Must return a single parent element\
+🔹Use className instead of class\
+🔹Wrap JavaScript expressions inside {}\
+🔹Close all tags, even self-closing ones like <img />, <br />\
+🔹JSX is not HTML — it’s syntactic sugar over React.createElement() with its own rules\
 <br/>
 
 ## ⚛️ React Components
@@ -120,7 +120,7 @@ Components are independent, reusable building blocks in a React application that
 
 ### Types of Components
 
-**1. Functional Components**
+**1. Functional Components**\
 These are plain JavaScript functions that return JSX. Most modern React apps use functional components.
 
 ```bash
@@ -132,7 +132,7 @@ function Header() {
 export default Header;
 ```
 
-**2. Class Components (Old Way)**
+**2. Class Components (Old Way)**\
 These use ES6 classes and have lifecycle methods. They're now rarely used in new apps.
 
 ```bash
@@ -146,15 +146,15 @@ class Header extends React.Component {
 
 ### Why Use Components?
 
-**🔁 Reusability –** Use the same component across different parts of your app.
-**🔧 Maintainability –** Smaller, focused components are easier to debug and manage.
-**🧩 Composability –** Combine small components to build complex UIs.
-**📦 Separation of Concerns –** Keeps logic and UI neatly organized.
+**🔁 Reusability –** Use the same component across different parts of your app.\
+**🔧 Maintainability –** Smaller, focused components are easier to debug and manage.\
+**🧩 Composability –** Combine small components to build complex UIs.\
+**📦 Separation of Concerns –** Keeps logic and UI neatly organized.\
 
 ### Component Naming Conventions
 
-🔹Use PascalCase for component names and file names: UserCard.jsx, NavBar.jsx
-🔹Keep the component and its styles (CSS/Tailwind) together for better organization.
+🔹Use PascalCase for component names and file names: UserCard.jsx, NavBar.jsx\
+🔹Keep the component and its styles (CSS/Tailwind) together for better organization.\
 
 ### Nesting Components
 
