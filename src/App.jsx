@@ -1,15 +1,16 @@
 import './App.css'
+import Hello from './components/Hello'
 
 function App() {
 
   return (
-    <>
-      <h1>
-        Hello React 19 <br />
-        Finally This is React 19.1.0
-      </h1>
-    </>
-  )
+      <div>
+        <Hello/>
+        <h2>
+          Finally This is React 19.1.0
+        </h2>
+      </div>
+  );
 }
 
 export default App
