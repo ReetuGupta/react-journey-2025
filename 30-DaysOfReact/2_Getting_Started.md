@@ -12,8 +12,7 @@ React is a JavaScript library developed by Facebook for building fast, interacti
 - Reusable and maintainable code  
 - Backed by a strong community and widely used in industry  
 - Supports building both single-page and mobile apps (via React Native)
-
----
+<br/>
 
 ## ⚙️ React Setup
 
@@ -30,12 +29,11 @@ cd react-learning
 npm install
 npm run dev
 ```
-
-
 ## 📁 React Folder Structure Overview
 
 Here's the structure of the React project after Vite setup:
 
+```bash
 react-project/
 ├── node_modules/
 ├── public/
@@ -52,7 +50,7 @@ react-project/
 ├── package.json
 ├── README.md
 └── vite.config.js
-
+```
 
 ### Descriptions:
 
@@ -71,7 +69,6 @@ react-project/
 🔹package.json: Project metadata and dependencies.
 
 🔹vite.config.js: Vite-specific config.
-
 
 ## ✅ Creating First React Component
 
@@ -107,6 +104,7 @@ function App() {
 
 export default App
 ```
+<br/>
 
 ## 📝 Summary
 
