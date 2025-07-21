@@ -12,10 +12,8 @@ const name = 'Jonny';
 const greeting = <h1>Hello, {name}!</h1>;
 ```
 
-🔹✅ Anything inside {} is evaluated as JS.
-
-🔹❌ Statements (like if) are not allowed, only expressions.
-
+🔹✅ Anything inside {} is evaluated as JS.\
+🔹❌ Statements (like if) are not allowed, only expressions.\
 🔹Can be used for: variables, ternary operators, expressions, function calls.
 
 ### 2. Uses of JSX
@@ -37,10 +35,8 @@ const element = <img src="img.png" alt="Logo" className="logo" />;
 
 Examples:
 
-🔸class → className
-
-🔸for → htmlFor
-
+🔸class → className\
+🔸for → htmlFor\
 🔸style → passed as an object
 
 #### c. Passing Children via Props
@@ -56,8 +52,7 @@ const App = () => (
 );
 ```
 
-🔸{props.children} lets the component render nested content.
-
+🔸{props.children} lets the component render nested content.\
 🔸Increases reusability and flexibility.
 
 #### d. JSX is Syntactic Sugar (Compiles to React.createElement)
@@ -93,10 +88,8 @@ return (
 
 You can use:
 
-🔸Ternary (? :)
-
-🔸Logical &&
-
+🔸Ternary (? :)\
+🔸Logical &&\
 🔸IIFE functions (rarely)
 
 ### 2. Rendering from Functions
