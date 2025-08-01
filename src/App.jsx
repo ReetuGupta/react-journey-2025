@@ -4,9 +4,6 @@ export default function App() {
   return (
     <>
       <NetflixCard />
-      <NetflixCard />
-      <NetflixCard />
-      <NetflixCard />
     </>
   );
 }
