@@ -1,10 +1,6 @@
-import { NetflixCard } from "./components/NetflixCard";
+import { Series } from "./components/Series";
 
 export default function App() {
-  return (
-    <>
-      <NetflixCard />
-    </>
-  );
+  return <Series />;
 }
 
