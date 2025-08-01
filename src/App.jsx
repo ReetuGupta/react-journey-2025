@@ -17,6 +17,8 @@ const NetflixCard = () => {
     const genre = "Adventure";
     return genre;
   }
+  let age = 25;
+
   return (
     <div>
       <img src="harry-potter1.jpg" alt="harry-potter1.jpg" />
@@ -24,6 +26,7 @@ const NetflixCard = () => {
       <h3>Rating: {6 + 2.2} </h3> {/*expression*/}
       <p>Summary: {summary} </p>
       <p>Genre: {seriesGenre()} </p> {/*function*/}
+      <button> {(age>=18) ? "Watch Now" : "Not Available"} </button>
     </div>
   );
 };
