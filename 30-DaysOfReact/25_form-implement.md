@@ -23,6 +23,10 @@ After practicing individual form elements yesterday, today I combined everything
 ### Styling
 - Styled the form with Tailwind CSS to ensure it looks clean, structured, and responsive.
 
+## Links
+- 🔗 [GitHub Repository](https://github.com/ReetuGupta/Mini_Projects_React/blob/main/src/components/Form.jsx)
+- 🔗 [Live Link](https://react-form-reetu.netlify.app/)
+
 ### ✨ Key Learnings
 - Combining multiple input types into one form.
 - Keeping state management clean with controlled inputs.
